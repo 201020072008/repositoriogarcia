@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Fredoka', sans-serif;
+  background-color: #f0fdf4;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #a3d9a5;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.menu-zoo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1a3c2e;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #fff;
+}
+
+.submenu .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #d2f4d3;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.submenu:hover .dropdown {
+  display: block;
+}
+
+.dropdown li {
+  margin-bottom: 8px;
+}
+
+main {
+  padding: 100px 20px 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+section img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 15px 0;
+  border-radius: 12px;
+}
